@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.counter{
+    background-color: bisque;
+}
+header{
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+h1{
+    padding: 10px;
+    font-size: 20px;
+}
+#item_form{
+    padding: 10px;
+}
+#priority{
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+.checkbox{
+    margin: 10px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+#checkbox{
+    width: 5px;
+    height: 5px;
+}
+.form_control{
+    margin: 10px;
+    
+}
+#item_form{
+width: 60%;
+border-radius: 5px ;
+
+}
+.btn{
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.filters{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#filters{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+}
+.item_list{
+    padding: 10px;
+}
+.apple_item{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;          
+  width: 200px;                    
+  padding: 10px 15px;              
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 60%;
+}
+.apple_icon{
+flex-shrink: 0;
+}
+.clear_btn{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+
+}
